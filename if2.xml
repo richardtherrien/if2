@@ -6,7 +6,7 @@
         <field name="OBJECT">ENTER</field>
       </block>
     </value>
-    <next>
+    <statement name="DO">
       <block type="controls_if" id="35" inline="false">
         <mutation elseif="1" else="1"></mutation>
         <value name="IF0">
@@ -58,10 +58,10 @@
             </next>
           </block>
         </statement>
-        <next>
-          <block type="movement_stop" id="135"></block>
-        </next>
       </block>
+    </statement>
+    <next>
+      <block type="movement_stop" id="135"></block>
     </next>
   </block>
 </xml>
